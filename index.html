@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula While</title>
+   <style>
+    body{
+        background-color: blanchedalmond;
+    }
+   </style>
+</head>
+<body>
+    <center>
+    <h1>Aula While</h1>
+    <script>
+//Criar variaveis
+        while(true){
+        var usuario= prompt("Digite seu usuário")
+        var senha =parseInt(prompt("Digite sua senha"))
+
+        //Criar a condição IF ELSE
+        if(usuario == "joão" && senha == "1234") {
+            window.location.href="/page.html"
+            document.write("Login Feito com Sucesso")
+            break;
+        } else {
+            alert("Usuário/Senha incorretos! Tente Novamente!")
+        }
+    }
+    </script>
+</center>
+</body>
+</html>
